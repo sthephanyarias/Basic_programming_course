@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8" />
+        <title>Dibujando en canvas</title>
+    </head>
+    <body>
+        <h1>Dibujo con el mouse</h1>
+        <p>Escoge el alto y el ancho de la hoja de dibujo:</p>
+        <p>Alto <input type="number" id="altoHoja"/></p>
+        <p>Ancho <input type="number" id="anchoHoja"/></p> 
+            <input type="button" value="OK" id="botonOk"/>
+        <p>Propiedades del pincel:</p>
+        <p>Color: <input type="color" value="#000000" id="colorPincel"/></p>
+        <p>Grosor: <input type="range" value="grosor" id="grosorPincel"/></p>
+        <canvas width="0" height="0" id="area_de_dibujo"></canvas>
+        <p><input type="reset" value="Borrar" id="borrarDibujo"/></p>
+        <script src="eventos2.js"></script>
+    </body>
+</html>
